@@ -1,0 +1,38 @@
+.quick-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 28px;
+  width: 100%;
+  max-width: 720px;
+}
+
+.category-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  font-size: 13px;
+  color: var(--color-text-2);
+  cursor: pointer;
+  background: var(--color-bg);
+  transition: all 0.15s;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.category-chip:hover {
+  background: var(--color-bg-soft);
+  border-color: var(--color-text-3);
+}
+
+.category-chip.more {
+  padding: 8px 10px;
+}
+
+.chip-icon {
+  flex-shrink: 0;
+}

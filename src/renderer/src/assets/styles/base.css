@@ -1,0 +1,26 @@
+/* ===== 基础样式（reset + 元素基础样式）=====
+ * 主题变量定义见 theme.css
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text-1);
+  background: var(--color-bg);
+  line-height: 1.6;
+  font-family: var(--font-family-base);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

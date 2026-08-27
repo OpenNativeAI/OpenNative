@@ -1,0 +1,42 @@
+.work-layout {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.work-main {
+  flex: 1;
+  background: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+/* 主内容区顶部栏（与侧边栏标题栏等高，统一拖拽区） */
+.work-main-header {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 16px;
+  border-bottom: 1px solid var(--color-border);
+  -webkit-app-region: drag;
+  flex-shrink: 0;
+}
+
+.header-bell {
+  width: 18px;
+  height: 18px;
+  color: var(--color-text-3);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-app-region: no-drag;
+}
+
+.header-bell:hover {
+  color: var(--color-text-2);
+}
