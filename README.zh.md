@@ -17,7 +17,7 @@
 
 </div>
 
-> 📖 **用你的语言阅读:** [🇨🇳 **简体中文**](README.zh.md) · [🇺🇸 English](README.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇪🇸 Español](README.es.md) · [🇫🇷 Français](README.fr.md) · [🇩🇪 Deutsch](README.de.md)
+> 📖 **用你的语言阅读:** [🇨🇳 **简体中文**](README.zh.md) · [🇺🇸 English](README.md) · [🇯🇵 日本語](README.ja.md) · [🇰🇷 한국어](README.ko.md) · [🇪🇸 Español](README.es.md) · [🇫🇷 Français](README.fr.md)
 
 ---
 
